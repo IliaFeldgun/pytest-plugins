@@ -1,8 +1,12 @@
 ## Changelog
+
 ### 1.9.0
- * All: Update `make test` runner to use `pytest` instead of deprecated `setup.py test`
- * pytest-profile: add support for `cProfile` regex to filter output
- * pytest-profile: update README.md args
+* All: Update `make test` runner to use `pytest` instead of deprecated `setup.py test`
+* pytest-server-fixtures: Update deprecated mongo 7.* to 8.2
+* pytest-profile: add support for `cProfile` regex to filter output
+* pytest-profile: update README.md args
+* ci: fix py3.7-3.13 ubuntu
+* ci: Update support in tests for py3.7-13 for ubuntu 22.04
 
 ### 1.8.1 (2024-11-29)
  * All: Add a CircleCI Windows build with py3.6-py3.12 and remove references to TravisCI. (#246)
