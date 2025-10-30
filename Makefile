@@ -49,7 +49,7 @@ develop: copyfiles extras
 
 test:
 	rm -f FAILED-*
-	./foreach.sh 'DEBUG=1 python setup.py test -sv -ra || touch ../FAILED-$$PKG'
+	./foreach.sh 'DEBUG=1 python -m pytest -sv -ra || touch ../FAILED-$$PKG'
 	bash -c "! compgen -G 'FAILED-*'"
 
 test-ci:

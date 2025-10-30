@@ -1,4 +1,7 @@
 ## Changelog
+### 1.9.0
+ * All: Update `make test` runner to use `pytest` instead of deprecated `setup.py test`
+
 ### 1.8.1 (2024-11-29)
  * All: Add a CircleCI Windows build with py3.6-py3.12 and remove references to TravisCI. (#246)
  * All: Add Ubuntu builds for py3.6-3.13
