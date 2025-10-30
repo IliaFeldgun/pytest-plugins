@@ -48,7 +48,7 @@ test-tmpl: &test-tmpl
 
 job-tmpl: &job-tmpl
   machine:
-    image: ubuntu-2004:edge
+    image: ubuntu-2204:current
 
   working_directory: /home/circleci/src
 

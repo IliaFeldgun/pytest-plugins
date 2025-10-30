@@ -43,7 +43,7 @@ function install_python {
     curl --silent --show-error --retry 5 https://bootstrap.pypa.io/pip/$version/get-pip.py | sudo $py
     sudo $py -m pip install setuptools
     }
-  elif [ "$version" = "3.10" ] || [ "$version" = "3.11" ] || [ "$version" = "3.12" ]; then
+  elif [ "$version" = "3.10" ] || [ "$version" = "3.11" ] ; then
     sudo apt-get install ${py}-distutils
     curl --silent --show-error --retry 5 https://bootstrap.pypa.io/get-pip.py | sudo $py
   else
