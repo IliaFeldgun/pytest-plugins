@@ -1,6 +1,8 @@
 ## Changelog
 ### 1.9.0
  * All: Update `make test` runner to use `pytest` instead of deprecated `setup.py test`
+ * pytest-profile: add support for `cProfile` regex to filter output
+ * pytest-profile: update README.md args
 
 ### 1.8.1 (2024-11-29)
  * All: Add a CircleCI Windows build with py3.6-py3.12 and remove references to TravisCI. (#246)
