@@ -3,6 +3,7 @@
 ### 1.9.0
 
 * All: Update `make test` runner to use `pytest` instead of deprecated `setup.py test`
+* All: Build wheel and sdist using `python -m build`
 * pytest-server-fixtures: Update deprecated mongo 7.* to 8.2
 * pytest-profile: add support for `cProfile` regex to filter output
 * pytest-profile: update README.md args
