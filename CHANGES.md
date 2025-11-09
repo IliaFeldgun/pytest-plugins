@@ -8,8 +8,8 @@
 * pytest-profile: add support for `cProfile` regex to filter output
 * pytest-profile: update README.md args
 * pytest-virtualenv: fix: Install local dir to virtualenv in later py3
-* ci: fix py3.7-3.13 ubuntu
-* ci: Update support in tests for py3.7-13 for ubuntu 22.04
+* ci: fix py3.7-3.14 ubuntu
+* ci: Update support in tests for py3.7-14 for ubuntu 22.04
 
 ### 1.8.1 (2024-11-29)
  * All: Add a CircleCI Windows build with py3.6-py3.12 and remove references to TravisCI. (#246)
